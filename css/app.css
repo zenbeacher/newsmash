@@ -1,0 +1,67 @@
+.center {
+  position: fixed;
+  top: 40%;
+  left: 30%;
+  /* bring your own prefixes */
+  /*transform: translate(-25%, -80%); */
+}
+
+.input_text { font-size:18px;padding:3px 6px;_margin: -1px 0; }
+
+.selectedTab {background: lightgray; color: darkblue; }
+
+table{
+	border-collapse:collapse;
+	border:1px solid navy;
+	font: 13px/16px 'Lucida Sans',sans-serif;
+}
+
+.wrap {
+   overflow: hidden;  
+   margin: 10px;
+}
+
+/*background: #e6e6ff;   */
+/*border-width: 2px;*/
+.tile {
+   float: left;  
+   position: relative; 
+   width: 100%;   
+   margin: 3px;
+   padding-bottom: 2%;   
+   background: white;
+   border-style: solid;  
+   border-color: black;
+  border-width: 0px 0px 1px 0px;    
+   padding: 3px;
+   color: black;   
+   font-weight: bold;
+}
+
+div.title {
+  font-family: times;
+  font-size:25px;
+  font-style: oblique;
+  color:black;
+  margin: 2px;
+  font-weight: bold;
+}
+
+div.byline {
+  font-family: times;
+  font-size:14px;
+  font-style: normal;
+  color:gray;
+  margin: 2px;
+  font-weight: normal;
+}
+
+div.storytext {   
+  word-wrap: break-word;
+  font-family: times;
+  font-size:20px;
+  color:black;  
+  margin: 2px;
+  font-weight: normal;
+}
+
